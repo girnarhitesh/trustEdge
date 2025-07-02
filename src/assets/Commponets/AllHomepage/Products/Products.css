@@ -13,7 +13,6 @@
 .Products-img-container-section img {
     width: 100%;
     height: 70vh;
-    /* border-radius: 10px; */
     object-fit: cover;
 }
 
@@ -41,7 +40,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: #F26F32;
-    /* gap: 30px; */
 }
 
 .Products-container-2 {
@@ -54,7 +52,7 @@
     margin-bottom: 20px;
     font-weight: 600;
     margin-left: 2vh;
-        color: white;
+    color: white;
 }
 
 .Products-container-2 ul {
@@ -64,7 +62,7 @@
     line-height: 1.7;
     width: 70vh;
     margin-left: 2vh;
-        color: white;
+    color: white;
     font-family: "Titillium Web", sans-serif;
 }
 
@@ -75,10 +73,9 @@
 }
 
 .Products-img-container-2 img {
-   width: 105%;
+    width: 105%;
     height: 70vh;
     object-fit: cover;
-    /* border-radius: 10px; */
 }
 
 .Products-3-section-container h1 {
@@ -91,7 +88,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 50px; */
 }
 
 .Products-img-contnat-container img {
@@ -99,10 +95,6 @@
     height: 60vh;
     object-fit: contain;
 }
-
-/* .Products-3-contnant-container {
-    padding: 30px;
-} */
 
 .Products-3-contnant-container p {
     font-size: 1.2rem;
@@ -146,29 +138,46 @@
 
     .Products-img-container-section img {
         width: 50vh;
+        height: 60vh;
         object-fit: cover;
-        margin-left: -3vh;
+        margin-top: 2vh;
+    }
+
+    .Products-container-2 ul li {
+        width: 43vh;
+    }
+
+    .Products-container-2 {
+        margin-left: 21vh;
+        margin-top: 10vh;
     }
 
     .Products-container-2 h1 {
-        font-size: 31px;
+        font-size: 1.5rem;
     }
 
     .Products-page-container-2 {
         display: flex;
         flex-direction: column;
+        height: 165vh;
     }
 
     .Products-img-container-2 img {
         width: 49vh;
         object-fit: cover;
-        height: 41vh;
+        height: 40vh;
+        margin-top: 2vh;
     }
 
     .Products-3-container {
         display: flex;
         flex-direction: column;
-        gap: 0;
+        margin-top: -8vh;
+    }
+
+    .Products-img-contnat-container img {
+        width: 50vh;
+        object-fit: contain;
     }
 
     .Products-3-section-container h1 {
@@ -176,4 +185,5 @@
         text-align: justify;
         display: flex;
     }
+
 }
