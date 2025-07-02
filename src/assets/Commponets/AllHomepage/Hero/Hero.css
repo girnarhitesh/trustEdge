@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.Hero-section-container {
+    width: 100%;
+}
+
+.hero-section-container-img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.hero-section-container-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.73));
+    z-index: 1;
+    pointer-events: none;
+    /* Prevent blocking clicks */
+}
+
+/* Content on top of the overlay */
+.Hero-section-contant-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.Hero-section-contant h1 {
+    font-size: 3rem;
+    /* width: 60vh; */
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    color: white;
+    line-height: 10vh;
+}
+
+.Hero-section-contant p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ...............-................... */
+.Hero-section-About-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-About-contant h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.section-About-contant p {
+    font-size: 20px;
+    width: 120vh;
+    display: flex;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.About-buttons-hero-section {
+    display: inline-block;
+    position: relative;
+}
+
+.About-buttons-hero-section button {
+    position: relative;
+    width: 20vh;
+    height: 6vh;
+    /* background: #192651; */
+    background-color: #F26F32;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(242, 111, 50, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
+    font-family: 'Arial', sans-serif;
+}
+
+.About-buttons-hero-section button:hover {
+    transform: translateY(-2px);
+    box-shadow: #192651;
+}
+
+.About-buttons-hero-section button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(242, 111, 50, 0.3);
+}
+
+.About-buttons-hero-section button .About-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: rotate(0deg);
+}
+
+.About-buttons-hero-section button:hover .About-icon {
+    transform: rotate(-45deg) translateX(3px);
+    color: #fff;
+}
+
+.About-buttons-hero-section button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+    z-index: 0;
+}
+
+.About-buttons-hero-section button:hover::before {
+    width: 200px;
+    height: 200px;
+}
+
+.About-buttons-hero-section button>* {
+    position: relative;
+    z-index: 1;
+}
+
+.About-buttons-hero-section button.loading {
+    pointer-events: none;
+}
+
+
+@media(max-width:900px) {
+    .Hero-section-contant-container {
+        text-align: center;
+    }
+
+    .Hero-section-contant h1 {
+        font-size: 45px;
+    }
+
+    .section-About-contant p {
+        width: 45vh;
+        text-align: center;
+    }
+
+}

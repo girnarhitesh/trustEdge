@@ -1,0 +1,171 @@
+.Products-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Products-img-container-section {
+    flex: 1;
+    max-width: 800px;
+}
+
+.Products-img-container-section img {
+    width: 70vh;
+    height: 55vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Products-container-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.Products-container-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Products-container-section span {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #555;
+    line-height: 35px;
+}
+
+.Products-page-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Products-container-2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.Products-container-2 h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.Products-container-2 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.Products-img-container-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Products-img-container-2 img {
+    width: 77vh;
+    height: 64vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Products-3-section-container h1 {
+    margin-bottom: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.Products-3-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Products-img-contnat-container img {
+    width: 70vh;
+    height: 60vh;
+    object-fit: contain;
+}
+
+.Products-3-contnant-container {
+    padding: 30px;
+}
+
+.Products-3-contnant-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.Products-3-contnant-container ul {
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.Products-3-contnant-container li {
+    margin-bottom: 0.5rem;
+
+}
+
+@media (max-width: 992px) {
+    .Products-page-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -10vh;
+    }
+
+    .Products-container-section,
+    .Products-img-container-section {
+        max-width: 100%;
+    }
+
+    .Products-container-section h1 {
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .Products-container-section span {
+        text-align: justify;
+    }
+
+    .Products-img-container-section img {
+        width: 50vh;
+        object-fit: cover;
+        margin-left: -3vh;
+    }
+
+    .Products-container-2 h1 {
+        font-size: 31px;
+    }
+
+    .Products-page-container-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Products-img-container-2 img {
+        width: 49vh;
+        object-fit: cover;
+        height: 41vh;
+    }
+
+    .Products-3-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .Products-3-section-container h1 {
+        width: 47vh;
+        text-align: justify;
+        display: flex;
+    }
+}

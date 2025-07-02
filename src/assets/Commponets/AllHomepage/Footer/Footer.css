@@ -1,0 +1,222 @@
+/* Footer Container */
+.Footer-container {
+    width: 100%;
+    min-height: 40vh;
+    background: linear-gradient(135deg, #F26F32 0%, #e55a2b 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.Footer-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+}
+
+/* Main Footer Layout */
+.Footer-page-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:2rem 2rem;
+    gap: 2rem;
+}
+
+/* Logo Section */
+.Footer-page-container img {
+    width: 25vh;
+    max-width: 200px;
+    min-width: 150px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+    transition: transform 0.3s ease;
+}
+
+.Footer-page-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation Links */
+.Footer-page-containers-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Footer-content a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.Footer-content p {
+    color: #2c2c2c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.Footer-content p:hover {
+    color: #fff;
+    transform: translateX(5px);
+}
+
+.map-link::first-letter {
+    color: white;
+}
+
+.Footer-content p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.7));
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Footer-content p:hover::after {
+    width: 100%;
+}
+
+/* Address Section */
+.Footer-content-container {
+    max-width: 280px;
+}
+
+.Footer-content-container a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.Footer-content-container a:hover {
+    transform: translateY(-2px);
+}
+
+.Footer-content-container p {
+    color: #2c2c2c;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Titillium Web", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid #192651;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+/* 
+.Footer-content-container p:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+} */
+
+/* Icon Styling */
+.Footer-content svg {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.Footer-content p:hover svg {
+    transform: translateX(3px);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .Footer-page-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .Footer-container {
+        min-height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .Footer-page-container img {
+        width: 20vh;
+        min-width: 120px;
+    }
+
+    .Footer-page-containers-content {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Footer-content {
+        align-items: center;
+    }
+
+    .Footer-content-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .Footer-content-container p {
+        font-size: 15px;
+        text-align: left;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .Footer-page-container {
+        padding: 2rem 1rem;
+    }
+
+    .Footer-content p {
+        font-size: 16px;
+    }
+
+    .Footer-content-container p {
+        font-size: 14px;
+        padding: 0.8rem;
+    }
+
+    .Footer-page-container img {
+        width: 15vh;
+        min-width: 100px;
+    }
+}
+
+/* Animation for page load */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Footer-container {
+    animation: fadeInUp 0.8s ease-out;
+}

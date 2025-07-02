@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.team-page-container {
+    margin-top: -2vh;
+}
+
+.team-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.team-container h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 3vh;
+    text-align: justify;
+    color: #2c3e50;
+    position: relative;
+    animation: slideInFromTop 1s ease-out;
+}
+
+.team-container hr {
+    width: 41vh;
+    margin-top: -4vh;
+    height: 0.7vh;
+    border-radius: 10px;
+    background-color: rgb(32, 33, 86);
+}
+
+.team-contant-container h2 {
+    display: flex;
+    width: 80vh;
+    max-width: 100%;
+    font-family: "Titillium Web", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    position: relative;
+    animation: textReveal 1s ease-out 0.6s both;
+}
+
+.team-contant-container p {
+    display: flex;
+    font-family: "Titillium Web", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10vh;
+    font-size: 25px;
+    line-height: 1.7;
+    color: hsl(209, 63%, 22%);
+    animation: textReveal 1s ease-out 0.8s both;
+    position: relative;
+}
+
+.Teamitem-section-container {
+    display: flex;
+    align-items: start;
+    border: 1px solid #e6dddd;
+    padding: 20px;
+    margin-top: 5vh;
+    border-radius: 5px;
+    gap: 50px !important;
+
+}
+
+.team-section-container img {
+    width: 40vh;
+}
+
+.team-contant-container span {
+    font-size: 20px;
+    display: flex;
+    width: 80vh;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #959799;
+    line-height: 30px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+@media (max-width: 992px) {
+    .Teamitem-section-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-img-container img {
+        width: 70vh;
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .Team-img-container-contact {
+        margin-left: 0;
+    }
+
+    .Team-img-container-contact h2::before {
+        display: none;
+    }
+
+    .team-container h1 {
+        font-size: 2.5rem;
+
+    }
+
+    .team-contant-container {
+        display: contents;
+
+    }
+
+    .team-contant-container span {
+        display: contents;
+        margin-top: 2vh;
+
+    }
+
+    .team-contant-container p {
+        display: contents;
+        margin-top: -5vh;
+    }
+
+    .team-section-container img {
+        margin-left: -3vh;
+    }
+
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
