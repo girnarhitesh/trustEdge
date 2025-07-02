@@ -45,23 +45,8 @@
     animation: pulse-ring 1s ease-out;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+@media(max-width:900px) {
     .top-earrow-icone {
-        height: 40px;
-        width: 40px;
-        font-size: 18px;
-        bottom: 20px;
-        right: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .top-earrow-icone {
-        height: 35px;
-        width: 35px;
-        font-size: 16px;
-        bottom: 15px;
-        right: 15px;
+        
     }
 }

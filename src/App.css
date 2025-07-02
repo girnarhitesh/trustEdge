@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html, body{
+  width: 100%;
+}
 .Sectionpadding {
   padding: 2rem 2rem;
   background-color: #F26F32;
