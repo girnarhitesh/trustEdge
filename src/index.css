@@ -45,8 +45,12 @@
     animation: pulse-ring 1s ease-out;
 }
 
-@media(max-width:900px) {
+@media (max-width: 900px) {
     .top-earrow-icone {
-        
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+        bottom: 20px;
+        right: 20px;
     }
 }
