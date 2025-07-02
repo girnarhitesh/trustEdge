@@ -122,7 +122,8 @@
     padding: 1rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    border-left: 4px solid #192651;
+    /* border-left: 4px solid #192651; */
+    border-left: 4px solid white;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
 }
