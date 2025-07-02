@@ -61,6 +61,7 @@ function Footer() {
                                 aria-label="View TrustEdge location on Google Maps"
                                 class="map-link"
                             >
+
                                 <p>
                                     <MdLocationOn style={{ fontSize: '18px', marginRight: '8px', color: '#fff' }} />
                                     TRUSTEDGE, VKG CORPORATE CENTRE,<br />
