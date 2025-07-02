@@ -17,7 +17,6 @@ function Footer() {
                             </Link>
                         </div>
 
-                  
                         <nav className="Footer-page-containers-content">
                             <div className="Footer-content">
                                 <Link to="/">
