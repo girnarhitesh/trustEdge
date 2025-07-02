@@ -30,43 +30,44 @@ function Product() {
                             <span><b>Credit Scoring Model & Eligibility :-</b> Business credit worthiness assessment using CIBIL/CRIF score & in-house Score Card Rating model. Impetus will be on use of fintech database & decisioning MIS to arrive at correct credit decisioning.</span>
                         </div>
                     </div>
-                    {/* <br /> */}
-                    <Col lg={12} sm={16} md={24}>
-                        <div className="Products-page-container-2">
-                            <div className="Products-container-2" data-aos="fade-right"
-                                data-aos-offset="300"
-                                data-aos-easing="ease-in-sine" >
-                                <h1>Supply Chain Financing (SCF)</h1>
-                                <ul>
-                                    <li>Anchor Based Dealer / Suppliers Finance</li>
-                                    <li>Purpose: Short-term working capital finance to optimize cash
-                                        flows & support to unlock trapped liquidity.</li>
-                                    <li>Target: Businesses requiring funds for their working capital.</li>
-                                    <li>Tenure: 30-180 days</li>
-                                    <li>Anchors : Typically, Mid Sized Enterprises which look
-                                        forward to reduce their Receivables & Payables by freeing
-                                        up trapped cash flows & help drive business productivity.</li>
-                                    <li>Dealer / Suppliers : They Buy/Supply goods from/to the
-                                        Anchor & look forward to gain access to short term liquidity
-                                        quickly in turn inducing cost reduction & efficiency in their
-                                        daily operations.</li>
-                                    <li>AERL USP : Simplified Documentation, Scalability & Quick
-                                        Disbursal.</li>
-                                </ul>
-                            </div>
-                            <div className="Products-img-container-2" data-aos="fade-left">
-                                <img src="https://images.unsplash.com/photo-1560250056-07ba64664864?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHxCVVNJTkVTU3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
-                            </div>
-                        </div>
-                    </Col>
 
+                    <div>
+                        <Col lg={12} sm={16} md={24}>
+                            <div className="Products-page-container-2">
+                                <div className="Products-container-2" data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine" >
+                                    <h1>Supply Chain Financing (SCF)</h1>
+                                    <ul>
+                                        <li>Anchor Based Dealer / Suppliers Finance</li>
+                                        <li>Purpose: Short-term working capital finance to optimize cash
+                                            flows & support to unlock trapped liquidity.</li>
+                                        <li>Target: Businesses requiring funds for their working capital.</li>
+                                        <li>Tenure: 30-180 days</li>
+                                        <li>Anchors : Typically, Mid Sized Enterprises which look
+                                            forward to reduce their Receivables & Payables by freeing
+                                            up trapped cash flows & help drive business productivity.</li>
+                                        <li>Dealer / Suppliers : They Buy/Supply goods from/to the
+                                            Anchor & look forward to gain access to short term liquidity
+                                            quickly in turn inducing cost reduction & efficiency in their
+                                            daily operations.</li>
+                                        <li>AERL USP : Simplified Documentation, Scalability & Quick
+                                            Disbursal.</li>
+                                    </ul>
+                                </div>
+                                <div className="Products-img-container-2" data-aos="fade-left">
+                                    <img src="https://images.unsplash.com/photo-1560250056-07ba64664864?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHxCVVNJTkVTU3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                                </div>
+                            </div>
+                        </Col>
+                    </div>
 
-                    <div className="Sectionpadding" style={{background:"white"}}>
+                    <div className="Sectionpadding" style={{ background: "white" }}>
                         <div className="Products-3-section-container">
                             <Row className="align-items-center Products-3-container">
                                 <Col lg={12} md={16} sm={24}>
                                     <div className="Products-img-contnat-container" data-aos="fade-up-right">
-                                        <img src="./public/team/Products.png" alt="Strategy" />
+                                        <img src="./public/team/backgroundremover.png" alt="Strategy" />
                                     </div>
                                 </Col>
                                 <Col lg={12} md={16} sm={24}>
