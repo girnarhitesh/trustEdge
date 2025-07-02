@@ -17,7 +17,7 @@ function Footer() {
                             </Link>
                         </div>
 
-                        {/* Navigation Links */}
+                  
                         <nav className="Footer-page-containers-content">
                             <div className="Footer-content">
                                 <Link to="/">
