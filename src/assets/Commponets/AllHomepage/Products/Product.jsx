@@ -10,58 +10,58 @@ function Product() {
             <Row>
                 <Col lg={12} sm={16} md={24}>
                     {/* <div className="Sectionpadding" style={{ background: "white" }}> */}
-                        <div className="Products-page-container">
-                            <div className="Products-img-container-section" data-aos="fade-right"
+                    <div className="Products-page-container">
+                        <div className="Products-img-container-section" data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <img
+                                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fEJVU0lORVNTfGVufDB8fDB8fHww"
+                                alt="Business"
+                            />
+                        </div>
+                        <div className="Products-container-section" data-aos="fade-left"
+                            data-aos-anchor="#example-anchor"
+                            data-aos-offset="500"
+                            data-aos-duration="500">
+                            <h1>Business Loan (BL)</h1>
+                            <span><b>Purpose:-</b> Business expansion, working capital, equipment purchase & margin funding.</span><br />
+                            <span><b>Target Market:-</b> Businesses (with already existing banking limits) needing immediate funding to manage short term obligations.</span><br />
+                            <span><b>Risk Mitigation:-</b> Our exposure in these businesses won’t exceed 15% of their existing banking limits.</span><br />
+                            <span><b>Credit Scoring Model & Eligibility :-</b> Business credit worthiness assessment using CIBIL/CRIF score & in-house Score Card Rating model. Impetus will be on use of fintech database & decisioning MIS to arrive at correct credit decisioning.</span>
+                        </div>
+                    </div>
+                    {/* <br /> */}
+                    <Col lg={12} sm={16} md={24}>
+                        <div className="Products-page-container-2">
+                            <div className="Products-container-2" data-aos="fade-right"
                                 data-aos-offset="300"
-                                data-aos-easing="ease-in-sine">
-                                <img
-                                    src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fEJVU0lORVNTfGVufDB8fDB8fHww"
-                                    alt="Business"
-                                />
+                                data-aos-easing="ease-in-sine" >
+                                <h1>Supply Chain Financing (SCF)</h1>
+                                <ul>
+                                    <li>Anchor Based Dealer / Suppliers Finance</li>
+                                    <li>Purpose: Short-term working capital finance to optimize cash
+                                        flows & support to unlock trapped liquidity.</li>
+                                    <li>Target: Businesses requiring funds for their working capital.</li>
+                                    <li>Tenure: 30-180 days</li>
+                                    <li>Anchors : Typically, Mid Sized Enterprises which look
+                                        forward to reduce their Receivables & Payables by freeing
+                                        up trapped cash flows & help drive business productivity.</li>
+                                    <li>Dealer / Suppliers : They Buy/Supply goods from/to the
+                                        Anchor & look forward to gain access to short term liquidity
+                                        quickly in turn inducing cost reduction & efficiency in their
+                                        daily operations.</li>
+                                    <li>AERL USP : Simplified Documentation, Scalability & Quick
+                                        Disbursal.</li>
+                                </ul>
                             </div>
-                            <div className="Products-container-section" data-aos="fade-left"
-                                data-aos-anchor="#example-anchor"
-                                data-aos-offset="500"
-                                data-aos-duration="500">
-                                <h1>Business Loan (BL)</h1>
-                                <span><b>Purpose:-</b> Business expansion, working capital, equipment purchase & margin funding.</span><br />
-                                <span><b>Target Market:-</b> Businesses (with already existing banking limits) needing immediate funding to manage short term obligations.</span><br />
-                                <span><b>Risk Mitigation:-</b> Our exposure in these businesses won’t exceed 15% of their existing banking limits.</span><br />
-                                <span><b>Credit Scoring Model & Eligibility :-</b> Business credit worthiness assessment using CIBIL/CRIF score & in-house Score Card Rating model. Impetus will be on use of fintech database & decisioning MIS to arrive at correct credit decisioning.</span>
+                            <div className="Products-img-container-2" data-aos="fade-left">
+                                <img src="https://images.unsplash.com/photo-1560250056-07ba64664864?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHxCVVNJTkVTU3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
                             </div>
                         </div>
-                        {/* <br /> */}
-                        <Col lg={12} sm={16} md={24}>
-                            <div className="Products-page-container-2">
-                                <div className="Products-container-2" data-aos="fade-right"
-                                    data-aos-offset="300"
-                                    data-aos-easing="ease-in-sine" >
-                                    <h1>Supply Chain Financing (SCF)</h1>
-                                    <ul>
-                                        <li>Anchor Based Dealer / Suppliers Finance</li>
-                                        <li>Purpose: Short-term working capital finance to optimize cash
-                                            flows & support to unlock trapped liquidity.</li>
-                                        <li>Target: Businesses requiring funds for their working capital.</li>
-                                        <li>Tenure: 30-180 days</li>
-                                        <li>Anchors : Typically, Mid Sized Enterprises which look
-                                            forward to reduce their Receivables & Payables by freeing
-                                            up trapped cash flows & help drive business productivity.</li>
-                                        <li>Dealer / Suppliers : They Buy/Supply goods from/to the
-                                            Anchor & look forward to gain access to short term liquidity
-                                            quickly in turn inducing cost reduction & efficiency in their
-                                            daily operations.</li>
-                                        <li>AERL USP : Simplified Documentation, Scalability & Quick
-                                            Disbursal.</li>
-                                    </ul>
-                                </div>
-                                <div className="Products-img-container-2" data-aos="fade-left">
-                                    <img src="https://images.unsplash.com/photo-1560250056-07ba64664864?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHxCVVNJTkVTU3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
-                                </div>
-                            </div>
-                        </Col>
+                    </Col>
 
 
-                        {/* <div className="Sectionpadding"> */}
+                    <div className="Sectionpadding" style={{background:"white"}}>
                         <div className="Products-3-section-container">
                             <Row className="align-items-center Products-3-container">
                                 <Col lg={12} md={16} sm={24}>
@@ -91,7 +91,7 @@ function Product() {
                                 </Col>
                             </Row>
                         </div>
-                        {/* </div> */}
+                    </div>
                     {/* </div> */}
                 </Col>
             </Row >
