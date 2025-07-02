@@ -30,7 +30,7 @@ function Product() {
                                 <span><b>Credit Scoring Model & Eligibility :-</b> Business credit worthiness assessment using CIBIL/CRIF score & in-house Score Card Rating model. Impetus will be on use of fintech database & decisioning MIS to arrive at correct credit decisioning.</span>
                             </div>
                         </div>
-                        <br />
+                        {/* <br /> */}
                         <Col lg={12} sm={16} md={24}>
                             <div className="Products-page-container-2">
                                 <div className="Products-container-2" data-aos="fade-right"
