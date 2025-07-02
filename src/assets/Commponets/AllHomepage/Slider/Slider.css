@@ -307,7 +307,7 @@
 
 @media(max-width:900px) {
   .slide {
-    height: 138vh;
+    height: 117vh;
   }
 
   .slider-title {
@@ -324,12 +324,15 @@
   }
 
   .slide-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .slide-icon {
-    width: 10vh;
-    height: 10vh;
+    background-color: white;
+  }
+
+  .slide-text {
+    font-size: 16px;
   }
 
 }

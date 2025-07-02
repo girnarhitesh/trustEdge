@@ -175,8 +175,8 @@
 
 @media(max-width:900px) {
 
-    .Backgfroundimg {
-        height: 40vh;
+    .Backgroundimg {
+        height: 50vh;
     }
     .Moats-section-container{
         background-size: auto;
