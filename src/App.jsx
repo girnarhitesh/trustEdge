@@ -11,6 +11,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from './assets/Commponets/AllHomepage/Footer/Footer';
 import Contact from './assets/Commponets/Contact/Contact';
+
+
 function App() {
 
   const [isVisible, setIsVisible] = useState(false);
