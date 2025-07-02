@@ -67,8 +67,8 @@
 }
 
 .Products-img-container-2 img {
-    width: 77vh;
-    height: 64vh;
+    width: 70vh;
+    height: 55vh;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -88,7 +88,7 @@
 
 .Products-img-contnat-container img {
     width: 70vh;
-    height: 64vh;
+    height: 60vh;
     object-fit: contain;
 }
 
@@ -112,7 +112,6 @@
 
 .Products-3-contnant-container li {
     margin-bottom: 0.5rem;
-
 }
 
 @media (max-width: 992px) {
