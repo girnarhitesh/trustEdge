@@ -127,6 +127,7 @@
 
     .nav-link-item:hover {
         transform: translateX(1rem);
+        color: white;
     }
 
     .nav-link-item:last-child {
