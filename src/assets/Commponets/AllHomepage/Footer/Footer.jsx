@@ -59,7 +59,7 @@ function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="View TrustEdge location on Google Maps"
-                                class="map-link"
+                                className="map-link"
                             >
 
                                 <p>
