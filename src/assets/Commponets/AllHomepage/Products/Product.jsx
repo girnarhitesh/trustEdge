@@ -9,7 +9,7 @@ function Product() {
         <>
             <Row>
                 <Col lg={12} sm={16} md={24}>
-                    <div className="Sectionpadding" style={{ background: "white" }}>
+                    {/* <div className="Sectionpadding" style={{ background: "white" }}> */}
                         <div className="Products-page-container">
                             <div className="Products-img-container-section" data-aos="fade-right"
                                 data-aos-offset="300"
@@ -92,7 +92,7 @@ function Product() {
                             </Row>
                         </div>
                         {/* </div> */}
-                    </div>
+                    {/* </div> */}
                 </Col>
             </Row >
         </>
