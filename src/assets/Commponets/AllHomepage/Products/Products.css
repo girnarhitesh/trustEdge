@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 .Products-container-2 {
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 .Products-img-contnat-container img {
