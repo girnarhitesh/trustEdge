@@ -202,6 +202,7 @@
   height: 1.5rem;
   color: #ffffff;
 }
+
 .dots-container {
   display: none;
 }
@@ -306,7 +307,7 @@
 
 @media(max-width:900px) {
   .slide {
-    height: 92vh;
+    height: 138vh;
   }
 
   .slider-title {
@@ -324,6 +325,11 @@
 
   .slide-title {
     font-size: 22px;
+  }
+
+  .slide-icon {
+    width: 10vh;
+    height: 10vh;
   }
 
 }
